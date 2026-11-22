@@ -1,0 +1,36 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches, and build output
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# Trace storage and SQLite transaction files
+/data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Keep local trace exports in one of these directories
+exports/
+traces/
+trace_exports/
+trace.json
+trace-*.json
+trace_*.json
+*.trace.json
