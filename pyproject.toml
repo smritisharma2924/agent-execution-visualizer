@@ -31,3 +31,7 @@ build-backend = "uv_build"
 [tool.uv]
 # Copying keeps the editable install's .pth file visible to Python on macOS.
 link-mode = "copy"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
