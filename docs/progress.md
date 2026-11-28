@@ -17,6 +17,8 @@ Reviewed the assertions against the CLI’s JSON. Without settings, capture was 
 
 **Changed files:** `tests/integration/test_config.py`, `pyproject.toml`, `.github/workflows/checks.yml`, and `docs/progress.md`. Reviewed `AGENTS.md` against the roadmap. It already covers package boundaries, privacy defaults, preservation of execution errors, and the verification commands.
 
-**Outstanding:** The first hosted Linux result is pending a push or pull request into main. Provider-backed check: **not run**. Review the Linux result before merging the milestone branch.
+**M0 closeout.** The final M0.4 commit (`eed6a30`) also passed in a fresh local clone with all three tests passing and 16 files passing the formatting check. GitHub’s Linux baseline checks passed on the milestone branch and again on `main` at merge commit `d56d7e2`. [Branch run](https://github.com/smritisharma2924/agent-execution-visualizer/actions/runs/45675578956) · [Merged PR](https://github.com/smritisharma2924/agent-execution-visualizer/pull/1) · [Main run](https://github.com/smritisharma2924/agent-execution-visualizer/actions/runs/46051530605)
+
+**Provider-backed check:** **not run**. M0 verified installation and import of the optional provider integration.
 
 **Next step ID:** M1.1.
